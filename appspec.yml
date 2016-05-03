@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /odoo8
-    destination: /home/ubuntu/Desktop
+    destination: /opt
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
